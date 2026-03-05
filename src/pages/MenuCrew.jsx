@@ -185,6 +185,13 @@ export default function MenuCrew() {
       menuTitle: 'Beef Samgyupsal',
       menuCategory: 'Others',
       menuPrice: 150
+    },
+    {
+      id: 31,
+      menuImage: Menu28,
+      menuTitle: 'Cheese Dip',
+      menuCategory: 'Beverages',
+      menuPrice: 150
     }
   ]
   const uniqueCategories = ['All', ...new Set(menuItems.map((item) => item.menuCategory))]
